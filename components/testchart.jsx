@@ -1,5 +1,9 @@
 
 
+import { Card, Text, Metric } from "@tremor/react";
+
+
+
 export default () => (
     
     <>
@@ -8,7 +12,11 @@ export default () => (
       Red Box made in .jsx with tailwind classnames
     </div>
 
-
-    </>
+    <br/><br/><br/><br/><br/>
+    <Card className="max-w-xs mx-auto">
+    <Text>Sales</Text>
+    <Metric>$ 34,743</Metric>
+  </Card>   
+   </>
 
 );
